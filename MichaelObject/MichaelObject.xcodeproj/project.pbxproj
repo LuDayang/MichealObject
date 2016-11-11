@@ -73,8 +73,8 @@
 		4CF0E9751DD5803100D777D7 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
 		4CF0E9761DD5803100D777D7 /* UIView+DYExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DYExtension.h"; sourceTree = "<group>"; };
 		4CF0E9771DD5803100D777D7 /* UIView+DYExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DYExtension.m"; sourceTree = "<group>"; };
-		4CF0E97F1DD5812D00D777D7 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		4CF0E9801DD5812D00D777D7 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4CF0E97F1DD5812D00D777D7 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		4CF0E9801DD5812D00D777D7 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
 		B1E30FCE8BB3607F96F96994 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -129,8 +129,6 @@
 		4C66F6BE1DD5734500E0729C /* MichaelObject */ = {
 			isa = PBXGroup;
 			children = (
-				4CF0E97F1DD5812D00D777D7 /* AppDelegate.h */,
-				4CF0E9801DD5812D00D777D7 /* AppDelegate.m */,
 				4CF0E9531DD57E9200D777D7 /* Main */,
 				4CF0E9561DD57E9200D777D7 /* Class */,
 				4CF0E9621DD57E9200D777D7 /* Resources */,
@@ -169,6 +167,8 @@
 		4CF0E9531DD57E9200D777D7 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				4CF0E97F1DD5812D00D777D7 /* AppDelegate.h */,
+				4CF0E9801DD5812D00D777D7 /* AppDelegate.m */,
 				4C66F6C51DD5734500E0729C /* ViewController.h */,
 				4C66F6C61DD5734500E0729C /* ViewController.m */,
 			);
