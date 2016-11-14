@@ -14,6 +14,7 @@
 		4C66F6CF1DD5734500E0729C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C66F6CD1DD5734500E0729C /* LaunchScreen.storyboard */; };
 		4C66F6DA1DD5734600E0729C /* MichaelObjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C66F6D91DD5734600E0729C /* MichaelObjectTests.m */; };
 		4C66F6E51DD5734600E0729C /* MichaelObjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C66F6E41DD5734600E0729C /* MichaelObjectUITests.m */; };
+		4CCEEE071DD96A6200674BD1 /* jpush-ios-2.2.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CCEEE051DD96A6200674BD1 /* jpush-ios-2.2.0.a */; };
 		4CF0E9691DD57E9200D777D7 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF0E95C1DD57E9200D777D7 /* BaseViewController.m */; };
 		4CF0E96F1DD57F4300D777D7 /* ConstantData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF0E96D1DD57F4300D777D7 /* ConstantData.m */; };
 		4CF0E9781DD5803100D777D7 /* NSDate+DYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF0E9711DD5803100D777D7 /* NSDate+DYExtension.m */; };
@@ -21,6 +22,15 @@
 		4CF0E97A1DD5803100D777D7 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF0E9751DD5803100D777D7 /* UIImage+ImageEffects.m */; };
 		4CF0E97B1DD5803100D777D7 /* UIView+DYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF0E9771DD5803100D777D7 /* UIView+DYExtension.m */; };
 		4CF0E9811DD5812D00D777D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF0E9801DD5812D00D777D7 /* AppDelegate.m */; };
+		4CF0E99A1DD5979700D777D7 /* ApiBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF0E9901DD5979700D777D7 /* ApiBase.m */; };
+		4CF0E99C1DD5979700D777D7 /* InterfaceBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF0E9941DD5979700D777D7 /* InterfaceBase.m */; };
+		4CF0E99F1DD5981A00D777D7 /* Global.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF0E99E1DD5981A00D777D7 /* Global.m */; };
+		4CF0E9B21DD5985900D777D7 /* DateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF0E9A21DD5985900D777D7 /* DateUtil.m */; };
+		4CF0E9B31DD5985900D777D7 /* ImgUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF0E9A51DD5985900D777D7 /* ImgUtil.m */; };
+		4CF0E9B41DD5985900D777D7 /* JPushUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF0E9A81DD5985900D777D7 /* JPushUtil.m */; };
+		4CF0E9B51DD5985900D777D7 /* MD5Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF0E9AB1DD5985900D777D7 /* MD5Util.m */; };
+		4CF0E9B61DD5985900D777D7 /* StringUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF0E9AE1DD5985900D777D7 /* StringUtil.m */; };
+		4CF0E9B71DD5985900D777D7 /* TextFieldUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF0E9B11DD5985900D777D7 /* TextFieldUtil.m */; };
 		DA059FA2911136E0763367D2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33C11E9F48677A6B2316D2F2 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +68,8 @@
 		4C66F6E01DD5734600E0729C /* MichaelObjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MichaelObjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C66F6E41DD5734600E0729C /* MichaelObjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MichaelObjectUITests.m; sourceTree = "<group>"; };
 		4C66F6E61DD5734600E0729C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CCEEE051DD96A6200674BD1 /* jpush-ios-2.2.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jpush-ios-2.2.0.a"; sourceTree = "<group>"; };
+		4CCEEE061DD96A6200674BD1 /* JPUSHService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPUSHService.h; sourceTree = "<group>"; };
 		4CF0E95B1DD57E9200D777D7 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		4CF0E95C1DD57E9200D777D7 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		4CF0E96A1DD57F4300D777D7 /* AppConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConfig.h; sourceTree = "<group>"; };
@@ -75,6 +87,24 @@
 		4CF0E9771DD5803100D777D7 /* UIView+DYExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DYExtension.m"; sourceTree = "<group>"; };
 		4CF0E97F1DD5812D00D777D7 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
 		4CF0E9801DD5812D00D777D7 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
+		4CF0E98F1DD5979700D777D7 /* ApiBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiBase.h; sourceTree = "<group>"; };
+		4CF0E9901DD5979700D777D7 /* ApiBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiBase.m; sourceTree = "<group>"; };
+		4CF0E9931DD5979700D777D7 /* InterfaceBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterfaceBase.h; sourceTree = "<group>"; };
+		4CF0E9941DD5979700D777D7 /* InterfaceBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterfaceBase.m; sourceTree = "<group>"; };
+		4CF0E99D1DD5981A00D777D7 /* Global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Global.h; sourceTree = "<group>"; };
+		4CF0E99E1DD5981A00D777D7 /* Global.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Global.m; sourceTree = "<group>"; };
+		4CF0E9A11DD5985900D777D7 /* DateUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateUtil.h; sourceTree = "<group>"; };
+		4CF0E9A21DD5985900D777D7 /* DateUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateUtil.m; sourceTree = "<group>"; };
+		4CF0E9A41DD5985900D777D7 /* ImgUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImgUtil.h; sourceTree = "<group>"; };
+		4CF0E9A51DD5985900D777D7 /* ImgUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImgUtil.m; sourceTree = "<group>"; };
+		4CF0E9A71DD5985900D777D7 /* JPushUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPushUtil.h; sourceTree = "<group>"; };
+		4CF0E9A81DD5985900D777D7 /* JPushUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPushUtil.m; sourceTree = "<group>"; };
+		4CF0E9AA1DD5985900D777D7 /* MD5Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MD5Util.h; sourceTree = "<group>"; };
+		4CF0E9AB1DD5985900D777D7 /* MD5Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MD5Util.m; sourceTree = "<group>"; };
+		4CF0E9AD1DD5985900D777D7 /* StringUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringUtil.h; sourceTree = "<group>"; };
+		4CF0E9AE1DD5985900D777D7 /* StringUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringUtil.m; sourceTree = "<group>"; };
+		4CF0E9B01DD5985900D777D7 /* TextFieldUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldUtil.h; sourceTree = "<group>"; };
+		4CF0E9B11DD5985900D777D7 /* TextFieldUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFieldUtil.m; sourceTree = "<group>"; };
 		B1E30FCE8BB3607F96F96994 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,6 +114,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA059FA2911136E0763367D2 /* libPods.a in Frameworks */,
+				4CCEEE071DD96A6200674BD1 /* jpush-ios-2.2.0.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,6 +160,7 @@
 		4C66F6BE1DD5734500E0729C /* MichaelObject */ = {
 			isa = PBXGroup;
 			children = (
+				4CF0E9821DD5979700D777D7 /* Include */,
 				4CF0E9531DD57E9200D777D7 /* Main */,
 				4CF0E9561DD57E9200D777D7 /* Class */,
 				4CF0E9621DD57E9200D777D7 /* Resources */,
@@ -235,6 +267,7 @@
 		4CF0E95D1DD57E9200D777D7 /* Libs */ = {
 			isa = PBXGroup;
 			children = (
+				4CF0E9B81DD5988600D777D7 /* JPushlib */,
 			);
 			path = Libs;
 			sourceTree = "<group>";
@@ -258,6 +291,8 @@
 		4CF0E9601DD57E9200D777D7 /* Global */ = {
 			isa = PBXGroup;
 			children = (
+				4CF0E99D1DD5981A00D777D7 /* Global.h */,
+				4CF0E99E1DD5981A00D777D7 /* Global.m */,
 			);
 			path = Global;
 			sourceTree = "<group>";
@@ -265,6 +300,12 @@
 		4CF0E9611DD57E9200D777D7 /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				4CF0E9A01DD5985900D777D7 /* DateUtil */,
+				4CF0E9A31DD5985900D777D7 /* ImgUtil */,
+				4CF0E9A61DD5985900D777D7 /* JPushUtil */,
+				4CF0E9A91DD5985900D777D7 /* md5Util */,
+				4CF0E9AC1DD5985900D777D7 /* StringUtil */,
+				4CF0E9AF1DD5985900D777D7 /* TextFieldUtil */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -317,6 +358,113 @@
 				4C66F6D01DD5734500E0729C /* Info.plist */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4CF0E9821DD5979700D777D7 /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				4CF0E9831DD5979700D777D7 /* Api */,
+				4CF0E9951DD5979700D777D7 /* Model */,
+			);
+			name = Include;
+			path = Class/Include;
+			sourceTree = "<group>";
+		};
+		4CF0E9831DD5979700D777D7 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				4CF0E9841DD5979700D777D7 /* Api */,
+				4CF0E98E1DD5979700D777D7 /* ApiBase */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		4CF0E9841DD5979700D777D7 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		4CF0E98E1DD5979700D777D7 /* ApiBase */ = {
+			isa = PBXGroup;
+			children = (
+				4CF0E98F1DD5979700D777D7 /* ApiBase.h */,
+				4CF0E9901DD5979700D777D7 /* ApiBase.m */,
+				4CF0E9931DD5979700D777D7 /* InterfaceBase.h */,
+				4CF0E9941DD5979700D777D7 /* InterfaceBase.m */,
+			);
+			path = ApiBase;
+			sourceTree = "<group>";
+		};
+		4CF0E9951DD5979700D777D7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4CF0E9A01DD5985900D777D7 /* DateUtil */ = {
+			isa = PBXGroup;
+			children = (
+				4CF0E9A11DD5985900D777D7 /* DateUtil.h */,
+				4CF0E9A21DD5985900D777D7 /* DateUtil.m */,
+			);
+			path = DateUtil;
+			sourceTree = "<group>";
+		};
+		4CF0E9A31DD5985900D777D7 /* ImgUtil */ = {
+			isa = PBXGroup;
+			children = (
+				4CF0E9A41DD5985900D777D7 /* ImgUtil.h */,
+				4CF0E9A51DD5985900D777D7 /* ImgUtil.m */,
+			);
+			path = ImgUtil;
+			sourceTree = "<group>";
+		};
+		4CF0E9A61DD5985900D777D7 /* JPushUtil */ = {
+			isa = PBXGroup;
+			children = (
+				4CF0E9A71DD5985900D777D7 /* JPushUtil.h */,
+				4CF0E9A81DD5985900D777D7 /* JPushUtil.m */,
+			);
+			path = JPushUtil;
+			sourceTree = "<group>";
+		};
+		4CF0E9A91DD5985900D777D7 /* md5Util */ = {
+			isa = PBXGroup;
+			children = (
+				4CF0E9AA1DD5985900D777D7 /* MD5Util.h */,
+				4CF0E9AB1DD5985900D777D7 /* MD5Util.m */,
+			);
+			path = md5Util;
+			sourceTree = "<group>";
+		};
+		4CF0E9AC1DD5985900D777D7 /* StringUtil */ = {
+			isa = PBXGroup;
+			children = (
+				4CF0E9AD1DD5985900D777D7 /* StringUtil.h */,
+				4CF0E9AE1DD5985900D777D7 /* StringUtil.m */,
+			);
+			path = StringUtil;
+			sourceTree = "<group>";
+		};
+		4CF0E9AF1DD5985900D777D7 /* TextFieldUtil */ = {
+			isa = PBXGroup;
+			children = (
+				4CF0E9B01DD5985900D777D7 /* TextFieldUtil.h */,
+				4CF0E9B11DD5985900D777D7 /* TextFieldUtil.m */,
+			);
+			path = TextFieldUtil;
+			sourceTree = "<group>";
+		};
+		4CF0E9B81DD5988600D777D7 /* JPushlib */ = {
+			isa = PBXGroup;
+			children = (
+				4CCEEE051DD96A6200674BD1 /* jpush-ios-2.2.0.a */,
+				4CCEEE061DD96A6200674BD1 /* JPUSHService.h */,
+			);
+			path = JPushlib;
 			sourceTree = "<group>";
 		};
 		F24771C44E2CD13CD0066E42 /* Pods */ = {
@@ -525,13 +673,22 @@
 			files = (
 				4CF0E97A1DD5803100D777D7 /* UIImage+ImageEffects.m in Sources */,
 				4C66F6C71DD5734500E0729C /* ViewController.m in Sources */,
+				4CF0E9B71DD5985900D777D7 /* TextFieldUtil.m in Sources */,
+				4CF0E9B51DD5985900D777D7 /* MD5Util.m in Sources */,
 				4CF0E9811DD5812D00D777D7 /* AppDelegate.m in Sources */,
+				4CF0E9B31DD5985900D777D7 /* ImgUtil.m in Sources */,
+				4CF0E9B21DD5985900D777D7 /* DateUtil.m in Sources */,
+				4CF0E99F1DD5981A00D777D7 /* Global.m in Sources */,
 				4CF0E9791DD5803100D777D7 /* NSString+DYExtension.m in Sources */,
 				4CF0E9691DD57E9200D777D7 /* BaseViewController.m in Sources */,
+				4CF0E99C1DD5979700D777D7 /* InterfaceBase.m in Sources */,
 				4CF0E96F1DD57F4300D777D7 /* ConstantData.m in Sources */,
 				4CF0E97B1DD5803100D777D7 /* UIView+DYExtension.m in Sources */,
+				4CF0E9B61DD5985900D777D7 /* StringUtil.m in Sources */,
 				4CF0E9781DD5803100D777D7 /* NSDate+DYExtension.m in Sources */,
 				4C66F6C11DD5734500E0729C /* main.m in Sources */,
+				4CF0E9B41DD5985900D777D7 /* JPushUtil.m in Sources */,
+				4CF0E99A1DD5979700D777D7 /* ApiBase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -629,7 +786,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -671,7 +828,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -685,8 +842,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = NMV968UAH7;
 				INFOPLIST_FILE = MichaelObject/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MichaelObject/Class/Libs/JPushlib",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = Michael.MichaelObject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -699,8 +860,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = NMV968UAH7;
 				INFOPLIST_FILE = MichaelObject/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MichaelObject/Class/Libs/JPushlib",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = Michael.MichaelObject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

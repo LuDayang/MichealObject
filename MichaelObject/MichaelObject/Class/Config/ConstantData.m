@@ -14,13 +14,13 @@
 NSString *const kAppIdForBmob = @"be4e0859eec4eea20e8baa465d674f10";
 
 //微信
-NSString *const kWXAppKey = @"wxe47f3dc3e4a8a0f4";
-NSString *const kWXSecret = @"580d11c169c276c068078a6c0ba11ba3";
+NSString *const kWXAppKey = @"wx7e98aae914f43084";
+NSString *const kWXSecret = @"7c7a5771847fba3d283251f64a54e36b";
 NSString *const kWXUrl = @"http://www.umeng.com/social";
 
 // QQ
-NSString *const kQQAppKey = @"1105782534";
-NSString *const kQQSecret = @"ax9aRupWbfvuHGk1";
+NSString *const kQQAppKey = @"1105798422";
+NSString *const kQQSecret = @"RJZR3XWnIwpYXKdG";
 NSString *const kQQUrl = @"http://www.umeng.com/social";
 
 //新浪微博

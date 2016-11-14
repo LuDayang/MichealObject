@@ -17,7 +17,6 @@
 #import <MJRefresh.h>
 #import "AppConfig.h"
 #import "ConstantData.h"
-#import "Constant.h"
 #import "UIView+DYExtension.h"
 #import "NSString+DYExtension.h"
 #import "NSDate+DYExtension.h"
