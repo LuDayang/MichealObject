@@ -15,6 +15,34 @@
 		4C66F6DA1DD5734600E0729C /* MichaelObjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C66F6D91DD5734600E0729C /* MichaelObjectTests.m */; };
 		4C66F6E51DD5734600E0729C /* MichaelObjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C66F6E41DD5734600E0729C /* MichaelObjectUITests.m */; };
 		4CCEEE071DD96A6200674BD1 /* jpush-ios-2.2.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CCEEE051DD96A6200674BD1 /* jpush-ios-2.2.0.a */; };
+		4CCEEE0C1DD96D8900674BD1 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CCEEE0B1DD96D8900674BD1 /* UserNotifications.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		4CCEEE0E1DD96DC900674BD1 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CCEEE0D1DD96DC900674BD1 /* CFNetwork.framework */; };
+		4CCEEE101DD96DD600674BD1 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CCEEE0F1DD96DD600674BD1 /* CoreFoundation.framework */; };
+		4CCEEE121DD96DE800674BD1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CCEEE111DD96DE800674BD1 /* SystemConfiguration.framework */; };
+		4CCEEE141DD96DF200674BD1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CCEEE131DD96DF200674BD1 /* CoreGraphics.framework */; };
+		4CCEEE161DD96DFE00674BD1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CCEEE151DD96DFE00674BD1 /* Foundation.framework */; };
+		4CCEEE181DD96E0600674BD1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CCEEE171DD96E0600674BD1 /* UIKit.framework */; };
+		4CCEEE1A1DD96E0E00674BD1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CCEEE191DD96E0E00674BD1 /* Security.framework */; };
+		4CCEEE1C1DD96E2200674BD1 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CCEEE1B1DD96E2200674BD1 /* libresolv.tbd */; };
+		4CCEEE2C1DD9B5CC00674BD1 /* GuideController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCEEE221DD9B5CC00674BD1 /* GuideController.m */; };
+		4CCEEE2D1DD9B5CC00674BD1 /* GuideController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CCEEE231DD9B5CC00674BD1 /* GuideController.xib */; };
+		4CCEEE2E1DD9B5CC00674BD1 /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCEEE261DD9B5CC00674BD1 /* LoginController.m */; };
+		4CCEEE2F1DD9B5CC00674BD1 /* LoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CCEEE271DD9B5CC00674BD1 /* LoginController.xib */; };
+		4CCEEE301DD9B5CC00674BD1 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCEEE291DD9B5CC00674BD1 /* RegisterViewController.m */; };
+		4CCEEE311DD9B5CC00674BD1 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CCEEE2A1DD9B5CC00674BD1 /* RegisterViewController.xib */; };
+		4CCEEE351DD9B62D00674BD1 /* Master.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCEEE331DD9B62D00674BD1 /* Master.m */; };
+		4CCEEE361DD9B62D00674BD1 /* Master.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CCEEE341DD9B62D00674BD1 /* Master.xib */; };
+		4CCEEE3A1DDADF6700674BD1 /* BaseWebController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCEEE391DDADF6700674BD1 /* BaseWebController.m */; };
+		4CCEEE3E1DDAE14900674BD1 /* BaseListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCEEE3C1DDAE14900674BD1 /* BaseListController.m */; };
+		4CCEEE3F1DDAE14900674BD1 /* BaseListController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CCEEE3D1DDAE14900674BD1 /* BaseListController.xib */; };
+		4CCEEE451DDAE94000674BD1 /* HomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCEEE431DDAE94000674BD1 /* HomeController.m */; };
+		4CCEEE461DDAE94000674BD1 /* HomeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CCEEE441DDAE94000674BD1 /* HomeController.xib */; };
+		4CCEEE4C1DDC0AA300674BD1 /* AnimationContoller.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCEEE491DDC0AA300674BD1 /* AnimationContoller.m */; };
+		4CCEEE4D1DDC0AA300674BD1 /* KLTNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCEEE4B1DDC0AA300674BD1 /* KLTNavigationController.m */; };
+		4CD750A91DDD93AD00B332F6 /* DrawSignView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD750A31DDD93AD00B332F6 /* DrawSignView.m */; };
+		4CD750AA1DDD93AD00B332F6 /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD750A61DDD93AD00B332F6 /* MyView.m */; };
+		4CD750AB1DDD93AD00B332F6 /* PopSignUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD750A81DDD93AD00B332F6 /* PopSignUtil.m */; };
+		4CD750AE1DDD93BF00B332F6 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD750AD1DDD93BF00B332F6 /* TestViewController.m */; };
 		4CF0E9691DD57E9200D777D7 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF0E95C1DD57E9200D777D7 /* BaseViewController.m */; };
 		4CF0E96F1DD57F4300D777D7 /* ConstantData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF0E96D1DD57F4300D777D7 /* ConstantData.m */; };
 		4CF0E9781DD5803100D777D7 /* NSDate+DYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF0E9711DD5803100D777D7 /* NSDate+DYExtension.m */; };
@@ -70,6 +98,50 @@
 		4C66F6E61DD5734600E0729C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CCEEE051DD96A6200674BD1 /* jpush-ios-2.2.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jpush-ios-2.2.0.a"; sourceTree = "<group>"; };
 		4CCEEE061DD96A6200674BD1 /* JPUSHService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPUSHService.h; sourceTree = "<group>"; };
+		4CCEEE0B1DD96D8900674BD1 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		4CCEEE0D1DD96DC900674BD1 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		4CCEEE0F1DD96DD600674BD1 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		4CCEEE111DD96DE800674BD1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		4CCEEE131DD96DF200674BD1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4CCEEE151DD96DFE00674BD1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4CCEEE171DD96E0600674BD1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4CCEEE191DD96E0E00674BD1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		4CCEEE1B1DD96E2200674BD1 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		4CCEEE1D1DD98E3100674BD1 /* MichaelObject.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MichaelObject.entitlements; sourceTree = "<group>"; };
+		4CCEEE211DD9B5CC00674BD1 /* GuideController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuideController.h; sourceTree = "<group>"; };
+		4CCEEE221DD9B5CC00674BD1 /* GuideController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuideController.m; sourceTree = "<group>"; };
+		4CCEEE231DD9B5CC00674BD1 /* GuideController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GuideController.xib; sourceTree = "<group>"; };
+		4CCEEE251DD9B5CC00674BD1 /* LoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginController.h; sourceTree = "<group>"; };
+		4CCEEE261DD9B5CC00674BD1 /* LoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginController.m; sourceTree = "<group>"; };
+		4CCEEE271DD9B5CC00674BD1 /* LoginController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginController.xib; sourceTree = "<group>"; };
+		4CCEEE281DD9B5CC00674BD1 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RegisterViewController.h; path = ../LoginViewController/RegisterViewController.h; sourceTree = "<group>"; };
+		4CCEEE291DD9B5CC00674BD1 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RegisterViewController.m; path = ../LoginViewController/RegisterViewController.m; sourceTree = "<group>"; };
+		4CCEEE2A1DD9B5CC00674BD1 /* RegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RegisterViewController.xib; path = ../LoginViewController/RegisterViewController.xib; sourceTree = "<group>"; };
+		4CCEEE321DD9B62D00674BD1 /* Master.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Master.h; sourceTree = "<group>"; };
+		4CCEEE331DD9B62D00674BD1 /* Master.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Master.m; sourceTree = "<group>"; };
+		4CCEEE341DD9B62D00674BD1 /* Master.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Master.xib; sourceTree = "<group>"; };
+		4CCEEE371DD9B87700674BD1 /* MacroDefinition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroDefinition.h; sourceTree = "<group>"; };
+		4CCEEE381DDADF6700674BD1 /* BaseWebController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseWebController.h; sourceTree = "<group>"; };
+		4CCEEE391DDADF6700674BD1 /* BaseWebController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseWebController.m; sourceTree = "<group>"; };
+		4CCEEE3B1DDAE14900674BD1 /* BaseListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseListController.h; sourceTree = "<group>"; };
+		4CCEEE3C1DDAE14900674BD1 /* BaseListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseListController.m; sourceTree = "<group>"; };
+		4CCEEE3D1DDAE14900674BD1 /* BaseListController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseListController.xib; sourceTree = "<group>"; };
+		4CCEEE401DDAE29600674BD1 /* MacroEnum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroEnum.h; sourceTree = "<group>"; };
+		4CCEEE421DDAE94000674BD1 /* HomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeController.h; sourceTree = "<group>"; };
+		4CCEEE431DDAE94000674BD1 /* HomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeController.m; sourceTree = "<group>"; };
+		4CCEEE441DDAE94000674BD1 /* HomeController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeController.xib; sourceTree = "<group>"; };
+		4CCEEE481DDC0AA300674BD1 /* AnimationContoller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationContoller.h; sourceTree = "<group>"; };
+		4CCEEE491DDC0AA300674BD1 /* AnimationContoller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationContoller.m; sourceTree = "<group>"; };
+		4CCEEE4A1DDC0AA300674BD1 /* KLTNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLTNavigationController.h; sourceTree = "<group>"; };
+		4CCEEE4B1DDC0AA300674BD1 /* KLTNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLTNavigationController.m; sourceTree = "<group>"; };
+		4CD750A21DDD93AD00B332F6 /* DrawSignView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawSignView.h; sourceTree = "<group>"; };
+		4CD750A31DDD93AD00B332F6 /* DrawSignView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawSignView.m; sourceTree = "<group>"; };
+		4CD750A51DDD93AD00B332F6 /* MyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
+		4CD750A61DDD93AD00B332F6 /* MyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
+		4CD750A71DDD93AD00B332F6 /* PopSignUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopSignUtil.h; sourceTree = "<group>"; };
+		4CD750A81DDD93AD00B332F6 /* PopSignUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopSignUtil.m; sourceTree = "<group>"; };
+		4CD750AC1DDD93BF00B332F6 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		4CD750AD1DDD93BF00B332F6 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		4CF0E95B1DD57E9200D777D7 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		4CF0E95C1DD57E9200D777D7 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		4CF0E96A1DD57F4300D777D7 /* AppConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConfig.h; sourceTree = "<group>"; };
@@ -113,6 +185,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CCEEE1C1DD96E2200674BD1 /* libresolv.tbd in Frameworks */,
+				4CCEEE1A1DD96E0E00674BD1 /* Security.framework in Frameworks */,
+				4CCEEE181DD96E0600674BD1 /* UIKit.framework in Frameworks */,
+				4CCEEE161DD96DFE00674BD1 /* Foundation.framework in Frameworks */,
+				4CCEEE141DD96DF200674BD1 /* CoreGraphics.framework in Frameworks */,
+				4CCEEE121DD96DE800674BD1 /* SystemConfiguration.framework in Frameworks */,
+				4CCEEE101DD96DD600674BD1 /* CoreFoundation.framework in Frameworks */,
+				4CCEEE0E1DD96DC900674BD1 /* CFNetwork.framework in Frameworks */,
+				4CCEEE0C1DD96D8900674BD1 /* UserNotifications.framework in Frameworks */,
 				DA059FA2911136E0763367D2 /* libPods.a in Frameworks */,
 				4CCEEE071DD96A6200674BD1 /* jpush-ios-2.2.0.a in Frameworks */,
 			);
@@ -160,6 +241,7 @@
 		4C66F6BE1DD5734500E0729C /* MichaelObject */ = {
 			isa = PBXGroup;
 			children = (
+				4CCEEE1D1DD98E3100674BD1 /* MichaelObject.entitlements */,
 				4CF0E9821DD5979700D777D7 /* Include */,
 				4CF0E9531DD57E9200D777D7 /* Main */,
 				4CF0E9561DD57E9200D777D7 /* Class */,
@@ -196,11 +278,106 @@
 			path = MichaelObjectUITests;
 			sourceTree = "<group>";
 		};
+		4CCEEE1E1DD9B21500674BD1 /* BmobApi */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = BmobApi;
+			path = Api/BmobApi;
+			sourceTree = "<group>";
+		};
+		4CCEEE1F1DD9B5CC00674BD1 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				4CCEEE201DD9B5CC00674BD1 /* GuideViewController */,
+				4CCEEE241DD9B5CC00674BD1 /* LoginViewController */,
+				4CCEEE2B1DD9B5CC00674BD1 /* RegisetViewController */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		4CCEEE201DD9B5CC00674BD1 /* GuideViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4CCEEE211DD9B5CC00674BD1 /* GuideController.h */,
+				4CCEEE221DD9B5CC00674BD1 /* GuideController.m */,
+				4CCEEE231DD9B5CC00674BD1 /* GuideController.xib */,
+			);
+			path = GuideViewController;
+			sourceTree = "<group>";
+		};
+		4CCEEE241DD9B5CC00674BD1 /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4CCEEE251DD9B5CC00674BD1 /* LoginController.h */,
+				4CCEEE261DD9B5CC00674BD1 /* LoginController.m */,
+				4CCEEE271DD9B5CC00674BD1 /* LoginController.xib */,
+			);
+			path = LoginViewController;
+			sourceTree = "<group>";
+		};
+		4CCEEE2B1DD9B5CC00674BD1 /* RegisetViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4CCEEE281DD9B5CC00674BD1 /* RegisterViewController.h */,
+				4CCEEE291DD9B5CC00674BD1 /* RegisterViewController.m */,
+				4CCEEE2A1DD9B5CC00674BD1 /* RegisterViewController.xib */,
+			);
+			path = RegisetViewController;
+			sourceTree = "<group>";
+		};
+		4CCEEE411DDAE93000674BD1 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				4CCEEE421DDAE94000674BD1 /* HomeController.h */,
+				4CCEEE431DDAE94000674BD1 /* HomeController.m */,
+				4CCEEE441DDAE94000674BD1 /* HomeController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		4CCEEE471DDC0AA300674BD1 /* KLTAnimateNav */ = {
+			isa = PBXGroup;
+			children = (
+				4CCEEE481DDC0AA300674BD1 /* AnimationContoller.h */,
+				4CCEEE491DDC0AA300674BD1 /* AnimationContoller.m */,
+				4CCEEE4A1DDC0AA300674BD1 /* KLTNavigationController.h */,
+				4CCEEE4B1DDC0AA300674BD1 /* KLTNavigationController.m */,
+			);
+			path = KLTAnimateNav;
+			sourceTree = "<group>";
+		};
+		4CD750A11DDD93AD00B332F6 /* Draw */ = {
+			isa = PBXGroup;
+			children = (
+				4CD750AC1DDD93BF00B332F6 /* TestViewController.h */,
+				4CD750AD1DDD93BF00B332F6 /* TestViewController.m */,
+				4CD750A21DDD93AD00B332F6 /* DrawSignView.h */,
+				4CD750A31DDD93AD00B332F6 /* DrawSignView.m */,
+				4CD750A41DDD93AD00B332F6 /* drawwall */,
+				4CD750A71DDD93AD00B332F6 /* PopSignUtil.h */,
+				4CD750A81DDD93AD00B332F6 /* PopSignUtil.m */,
+			);
+			path = Draw;
+			sourceTree = "<group>";
+		};
+		4CD750A41DDD93AD00B332F6 /* drawwall */ = {
+			isa = PBXGroup;
+			children = (
+				4CD750A51DDD93AD00B332F6 /* MyView.h */,
+				4CD750A61DDD93AD00B332F6 /* MyView.m */,
+			);
+			path = drawwall;
+			sourceTree = "<group>";
+		};
 		4CF0E9531DD57E9200D777D7 /* Main */ = {
 			isa = PBXGroup;
 			children = (
 				4CF0E97F1DD5812D00D777D7 /* AppDelegate.h */,
 				4CF0E9801DD5812D00D777D7 /* AppDelegate.m */,
+				4CCEEE321DD9B62D00674BD1 /* Master.h */,
+				4CCEEE331DD9B62D00674BD1 /* Master.m */,
+				4CCEEE341DD9B62D00674BD1 /* Master.xib */,
 				4C66F6C51DD5734500E0729C /* ViewController.h */,
 				4C66F6C61DD5734500E0729C /* ViewController.m */,
 			);
@@ -243,6 +420,8 @@
 				4CF0E96C1DD57F4300D777D7 /* ConstantData.h */,
 				4CF0E96D1DD57F4300D777D7 /* ConstantData.m */,
 				4CF0E96E1DD57F4300D777D7 /* NotificationManager.h */,
+				4CCEEE371DD9B87700674BD1 /* MacroDefinition.h */,
+				4CCEEE401DDAE29600674BD1 /* MacroEnum.h */,
 			);
 			path = Config;
 			sourceTree = "<group>";
@@ -250,6 +429,9 @@
 		4CF0E9591DD57E9200D777D7 /* Controlls */ = {
 			isa = PBXGroup;
 			children = (
+				4CD750A11DDD93AD00B332F6 /* Draw */,
+				4CCEEE411DDAE93000674BD1 /* Home */,
+				4CCEEE1F1DD9B5CC00674BD1 /* Other */,
 				4CF0E95A1DD57E9200D777D7 /* BaseViewController */,
 			);
 			path = Controlls;
@@ -258,8 +440,14 @@
 		4CF0E95A1DD57E9200D777D7 /* BaseViewController */ = {
 			isa = PBXGroup;
 			children = (
+				4CCEEE471DDC0AA300674BD1 /* KLTAnimateNav */,
 				4CF0E95B1DD57E9200D777D7 /* BaseViewController.h */,
 				4CF0E95C1DD57E9200D777D7 /* BaseViewController.m */,
+				4CCEEE381DDADF6700674BD1 /* BaseWebController.h */,
+				4CCEEE391DDADF6700674BD1 /* BaseWebController.m */,
+				4CCEEE3B1DDAE14900674BD1 /* BaseListController.h */,
+				4CCEEE3C1DDAE14900674BD1 /* BaseListController.m */,
+				4CCEEE3D1DDAE14900674BD1 /* BaseListController.xib */,
 			);
 			path = BaseViewController;
 			sourceTree = "<group>";
@@ -363,6 +551,7 @@
 		4CF0E9821DD5979700D777D7 /* Include */ = {
 			isa = PBXGroup;
 			children = (
+				4CCEEE1E1DD9B21500674BD1 /* BmobApi */,
 				4CF0E9831DD5979700D777D7 /* Api */,
 				4CF0E9951DD5979700D777D7 /* Model */,
 			);
@@ -479,6 +668,15 @@
 		FDE1FCA8492711497F05D963 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4CCEEE1B1DD96E2200674BD1 /* libresolv.tbd */,
+				4CCEEE191DD96E0E00674BD1 /* Security.framework */,
+				4CCEEE171DD96E0600674BD1 /* UIKit.framework */,
+				4CCEEE151DD96DFE00674BD1 /* Foundation.framework */,
+				4CCEEE131DD96DF200674BD1 /* CoreGraphics.framework */,
+				4CCEEE111DD96DE800674BD1 /* SystemConfiguration.framework */,
+				4CCEEE0F1DD96DD600674BD1 /* CoreFoundation.framework */,
+				4CCEEE0D1DD96DC900674BD1 /* CFNetwork.framework */,
+				4CCEEE0B1DD96D8900674BD1 /* UserNotifications.framework */,
 				33C11E9F48677A6B2316D2F2 /* libPods.a */,
 			);
 			name = Frameworks;
@@ -556,6 +754,11 @@
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = NMV968UAH7;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					4C66F6D41DD5734600E0729C = {
 						CreatedOnToolsVersion = 8.1;
@@ -596,9 +799,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CCEEE361DD9B62D00674BD1 /* Master.xib in Resources */,
 				4C66F6CF1DD5734500E0729C /* LaunchScreen.storyboard in Resources */,
+				4CCEEE3F1DDAE14900674BD1 /* BaseListController.xib in Resources */,
 				4C66F6CC1DD5734500E0729C /* Assets.xcassets in Resources */,
+				4CCEEE461DDAE94000674BD1 /* HomeController.xib in Resources */,
+				4CCEEE2D1DD9B5CC00674BD1 /* GuideController.xib in Resources */,
+				4CCEEE2F1DD9B5CC00674BD1 /* LoginController.xib in Resources */,
 				4C66F6CA1DD5734500E0729C /* Main.storyboard in Resources */,
+				4CCEEE311DD9B5CC00674BD1 /* RegisterViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -671,14 +880,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CD750AB1DDD93AD00B332F6 /* PopSignUtil.m in Sources */,
 				4CF0E97A1DD5803100D777D7 /* UIImage+ImageEffects.m in Sources */,
+				4CD750AE1DDD93BF00B332F6 /* TestViewController.m in Sources */,
+				4CCEEE3A1DDADF6700674BD1 /* BaseWebController.m in Sources */,
 				4C66F6C71DD5734500E0729C /* ViewController.m in Sources */,
+				4CD750AA1DDD93AD00B332F6 /* MyView.m in Sources */,
 				4CF0E9B71DD5985900D777D7 /* TextFieldUtil.m in Sources */,
 				4CF0E9B51DD5985900D777D7 /* MD5Util.m in Sources */,
+				4CCEEE301DD9B5CC00674BD1 /* RegisterViewController.m in Sources */,
 				4CF0E9811DD5812D00D777D7 /* AppDelegate.m in Sources */,
+				4CCEEE2E1DD9B5CC00674BD1 /* LoginController.m in Sources */,
 				4CF0E9B31DD5985900D777D7 /* ImgUtil.m in Sources */,
+				4CCEEE4D1DDC0AA300674BD1 /* KLTNavigationController.m in Sources */,
 				4CF0E9B21DD5985900D777D7 /* DateUtil.m in Sources */,
+				4CD750A91DDD93AD00B332F6 /* DrawSignView.m in Sources */,
+				4CCEEE3E1DDAE14900674BD1 /* BaseListController.m in Sources */,
+				4CCEEE2C1DD9B5CC00674BD1 /* GuideController.m in Sources */,
 				4CF0E99F1DD5981A00D777D7 /* Global.m in Sources */,
+				4CCEEE451DDAE94000674BD1 /* HomeController.m in Sources */,
+				4CCEEE351DD9B62D00674BD1 /* Master.m in Sources */,
+				4CCEEE4C1DDC0AA300674BD1 /* AnimationContoller.m in Sources */,
 				4CF0E9791DD5803100D777D7 /* NSString+DYExtension.m in Sources */,
 				4CF0E9691DD57E9200D777D7 /* BaseViewController.m in Sources */,
 				4CF0E99C1DD5979700D777D7 /* InterfaceBase.m in Sources */,
@@ -840,6 +1062,7 @@
 			baseConfigurationReference = 1980D13EA172F534BBD2E549 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MichaelObject/MichaelObject.entitlements;
 				DEVELOPMENT_TEAM = NMV968UAH7;
 				INFOPLIST_FILE = MichaelObject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -858,6 +1081,7 @@
 			baseConfigurationReference = B1E30FCE8BB3607F96F96994 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MichaelObject/MichaelObject.entitlements;
 				DEVELOPMENT_TEAM = NMV968UAH7;
 				INFOPLIST_FILE = MichaelObject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;

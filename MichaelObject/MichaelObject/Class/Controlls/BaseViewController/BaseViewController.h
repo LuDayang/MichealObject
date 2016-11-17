@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Config.h"
+
 @interface BaseViewController : UIViewController
 - (void)back;
 - (void)initView;

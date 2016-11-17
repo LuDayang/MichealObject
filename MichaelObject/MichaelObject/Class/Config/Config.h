@@ -25,4 +25,9 @@
 #import "TextFieldUtil.h"
 #import "Global.h"
 #import "NotificationManager.h"
+#import "AppConfig.h"
+#import "MacroDefinition.h"
+#import <BmobSDK/Bmob.h>
+#import "MacroEnum.h"
+#import "KLTNavigationController.h"
 #endif /* Config_h */

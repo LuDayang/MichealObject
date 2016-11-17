@@ -11,7 +11,7 @@
 #import <Foundation/Foundation.h>
 
 // Bmob
-NSString *const kAppIdForBmob = @"be4e0859eec4eea20e8baa465d674f10";
+NSString *const kBmobAppId = @"7ac1240a2efa270dcd24c06c64c6dbb7";
 
 //微信
 NSString *const kWXAppKey = @"wx7e98aae914f43084";
@@ -35,7 +35,7 @@ NSString *const kUmengAppKey = @"5811997204e205496b002533";
 NSString *const kUMSocialAppKey = @"5811997204e205496b002533";
 
 //极光推送
-NSString *const kJPushAppKey = @"5a419f3c3ee0805fe87d0802";
+NSString *const kJPushAppKey = @"584d22c232bfb3db24f5f843";
 
 //服务器地址
 #if OPEN_TEST_DOMAIN

@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "Config.h"
 
 //极光推送
 #import "JPUSHService.h"
@@ -15,7 +16,9 @@
 #import <UserNotifications/UserNotifications.h>
 #endif
 
-static NSString *appKey = @"AppKey copied from JPush Portal application";
+
+#import "LoginController.h"
+#import "Master.h"
 static NSString *channel = @"Publish channel";
 static BOOL isProduction = FALSE;
 
@@ -27,9 +30,28 @@ static BOOL isProduction = FALSE;
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    //注册极光推送
-    [self JpushSDKRegisterWithOptions:launchOptions];
+  
+    [self registersdkWithOptions:launchOptions];
+  
+  
+//  LoginController *vc = [[LoginController alloc] initWithNibName:@"LoginController" bundle:nil];
+//  UINavigationController *nvc = [[UINavigationController alloc] initWithRootViewController:vc];
+//  nvc.navigationBarHidden = YES;
+//  self.window.rootViewController = nvc;
+  
+  Master *vc = [[Master alloc] init];
+  self.window.rootViewController = vc;
     return YES;
+}
+
+-(void)registersdkWithOptions:(NSDictionary *)launchOptions{
+  //注册极光推送
+  [self JpushSDKRegisterWithOptions:launchOptions];
+  [Bmob registerWithAppKey:kBmobAppId];
+  //注册IQKeyboard
+  IQKeyboardManager *manager = [IQKeyboardManager sharedManager];
+  manager.enable = YES;
+  manager.shouldResignOnTouchOutside = YES;
 }
 
 
@@ -57,7 +79,7 @@ static BOOL isProduction = FALSE;
     }
     
     //如不需要使用IDFA，advertisingIdentifier 可为nil
-    [JPUSHService setupWithOption:launchOptions appKey:appKey
+    [JPUSHService setupWithOption:launchOptions appKey:kJPushAppKey
                           channel:channel
                  apsForProduction:isProduction
             advertisingIdentifier:advertisingId];

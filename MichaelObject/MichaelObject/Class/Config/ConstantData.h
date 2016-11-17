@@ -70,7 +70,7 @@ otherButtonTitles:nil, nil];         \
 
 #pragma mark - APPKEY常量
 //Bmob
-extern NSString * const kAppIdForBmob;
+extern NSString * const kBmobAppId;
 
 //微信
 extern NSString * const kWXAppKey;

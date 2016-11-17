@@ -33,6 +33,8 @@
   self.navigationController.navigationBar.barTintColor = [UIColor colorWithRed:0.9647 green:0.9647 blue:0.9647 alpha:1.0];
   [self.navigationController.navigationBar setTranslucent:NO];
   self.edgesForExtendedLayout = UIRectEdgeNone;
+  [self.navigationController.navigationBar setTranslucent:YES];
+  
 //  UIButton *backBtn = [[[Global sharedSingleton] getCommonCustomViews] objectForKey:@"back"];
 //  [[Global sharedSingleton] setLeftBarButtonForNavigationController:self withButton:backBtn andAction:@selector(back)];
 }
